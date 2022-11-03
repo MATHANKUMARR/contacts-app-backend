@@ -34,15 +34,6 @@ public class UserDetailsService {
 
     public void addUser(UserDetails userdetails){
            userDetailsRepository.save(userdetails);
-            
-            // Temp
-            // Contact con = new Contact();
-            // con.setUserId(temp.getUserId());
-            // con.setCountryCode("");
-            // con.setPrimaryMobileNumber("");
-            // con.setSecondaryMobileNumber("");
-            // contactService.addContact(con);
-
     }
 
     public void updateUserDetails(UserDetails userDetails ,int userId){ 
